@@ -37,7 +37,7 @@ public class PolymorphWindow extends JPanel implements ActionListener {
 		poly[2] = new MovingMorph(2 * 50, 2 * 50, 10, 10);
 		poly[3] = new CirclePolymorph(3 * 50, 3 * 50, 10, 10);
 		poly[4] = new BluePolymorph(4 * 50, 4 * 50, 10, 10);
-		poly[5] = new BluePolymorph(5 * 50, 5 * 50, 10, 10);
+		poly[5] = new FollowMorph(5 * 50, 5 * 50, 10, 10);
 		poly[6] = new BluePolymorph(6 * 50, 6 * 50, 10, 10);
 
 		timer = new Timer(1000 / 30, this);
